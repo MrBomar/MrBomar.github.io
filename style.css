@@ -1,0 +1,29 @@
+/* Written May 2018 by Leslie C. Bomar: contact mrlesbomar@gmail.com */
+
+body {
+	background-color: lightgray;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 150%;
+	margin: 15vh 0px 20px 0px;
+}
+
+h6 {
+	margin: 0px;
+	font-size: 80%;
+	font-weight: bold;
+	color: rgb(80,80,80);
+}
+
+#center {
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+input {
+	margin: 0px auto 20px 0px;
+	width: 100%;
+}
