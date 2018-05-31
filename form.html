@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+	<map name="htmlcssjs">
+		<area shape="rect" coords="0,0,35,40" href="https://www.w3schools.com/html/default.asp">
+		<area shape="rect" coords="35,0,70,40" href="https://www.w3schools.com/css/default.asp">
+		<area shape="rect" coords="70,0,120,40" href="https://www.w3schools.com/js/default.asp">
+	</map>
 	<div class="container">
 	  <div class="row">
 	    <div class="col-sm-1">
@@ -14,10 +19,11 @@
 	    </div>
 	    <div class="col-sm-10">
 	      <h1>My Projects</h1>
-		<div id="center">
+		<div id="TicTacToe" class="article" tags="HTML CSS JS">
 			<a href="TicTacToe.html"><h2>Tic-Tac-Toe</h2></a>
 			<p>A simple application experimenting in Javascript logic with minimal DOM manipulation. They key feature being the ability for the computer to
 				compete against the player using a random sequence.
+			<img class="small-icons" src="html5-css-javascript-logos.png" usemap="#htmlcssjs"/>
 			</p>
 		</div>
 	    </div>
@@ -26,7 +32,10 @@
 	    </div>
 	  </div>
 	</div>
-		
-
+	<div class="pageTech">
+		<a href="https://getbootstrap.com/"><img class="small-icons" src="bootstrap.png" style="margin: 10px 0px 0px 0px;"/></a>
+		<img class="small-icons" src="html5-css-javascript-logos.png" usemap="#htmlcssjs"/>
+		<h6>This page created using</h6>
+	</div>
 </body>
 </html>

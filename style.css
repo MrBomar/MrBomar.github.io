@@ -7,7 +7,7 @@ body {
 h1 {
 	font-weight: bold;
 	font-size: 150%;
-	margin: 15vh 0px 20px 0px;
+	margin: 10px 0px 20px 0px;
 }
 
 h6 {
@@ -17,13 +17,34 @@ h6 {
 	color: rgb(80,80,80);
 }
 
-#center {
+.article {
 	background-color: white;
 	border-radius: 10px;
 	padding: 20px;
 }
 
-input {
-	margin: 0px auto 20px 0px;
-	width: 100%;
+.small-icons {
+	height: 40px;
+	width: auto;
+	float: right;
+	margin: 10px 5px 0px 5px;
+}
+
+.pageTech {
+	margin: 5px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	display: inline-block;
+}
+
+.pageTech h6 {
+	line-height: 60px;
+	text-align: center;
+	float: right;
+}
+
+#mypic {
+	height: 200px;
+	float: right;
 }
