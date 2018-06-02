@@ -21,30 +21,70 @@ h6 {
 	background-color: white;
 	border-radius: 10px;
 	padding: 20px;
+	margin-top: 10px;
 }
 
 .small-icons {
-	height: 40px;
+	height: 30px;
 	width: auto;
-	float: right;
 	margin: 10px 5px 0px 5px;
 }
 
-.pageTech {
-	margin: 5px;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	display: inline-block;
+.tinyIcons {
+	height: 30px;
+	width: auto;
 }
 
-.pageTech h6 {
-	line-height: 60px;
-	text-align: center;
+#contactImage {
 	float: right;
+	text-align: center;
+	position: relative;
+}
+
+#icondiv {
+	margin-top: 10px;
+	align-content: center;
 }
 
 #mypic {
 	height: 200px;
-	float: right;
+	border-radius: 0% 20% 0% 20%;
+	box-shadow: 5px 5px 2px black;
+}
+
+.filterButton {
+	float: left;
+}
+
+.dropdown-menu {
+	width: 100vw;
+	position: absolute;
+	left: 0px;
+}
+
+#techFilter {
+	display: inline-flex;
+	background-color: white;
+	width: 100%;
+	height: 40px;
+}
+
+#techFilter h5 {
+	line-height: 40px;
+	margin: 0px 10px 0px 10px;
+}
+
+#techFilter img {
+	box-sizing: content-box;
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+}
+
+#techFilter img:hover {
+	background-color: lightgreen;
+}
+
+.activeButton {
+	background-color: black;
 }
