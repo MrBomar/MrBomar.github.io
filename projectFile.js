@@ -38,14 +38,14 @@ let techButton = [
         "id": "htmlButton",
         "tag": "html",
         "onClick": `filterPage('html', 'rgb(241,101,41)', 'htmlButton')`,
-        "image": "html5.png",
+        "image": "HTML5.png",
     },
     {
         "name": "CSS 3",
         "id": "cssButton",
         "tag": "css",
         "onClick": `filterPage('css', 'rgb(55,154,214)', 'cssButton')`,
-        "image": "css3.png"
+        "image": "CSS3.png"
     },
     {
         "name": "JavaScript",
@@ -66,7 +66,7 @@ let techButton = [
         "id": "accessButton",
         "tag": "access",
         "onClick": `filterPage('access', 'rgb(160,53,55)', 'accessButton')`,
-        "image": "msaccess.png"
+        "image": "MSAccess.png"
     },
 
 ]
