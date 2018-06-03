@@ -38,7 +38,7 @@ const filterPage = (tag, color, buttonId) => {
     }
 
     //Make clicked button active
-    document.getElementById(buttonId).style.background = "black";
+    document.getElementById(buttonId).style.background = "lightgreen";
 }
 
 //Render tech filter buttons
