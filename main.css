@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-rows: 8vh 92vh;
+    overflow: hidden;
+}
+
+nav {
+    grid-row: 1;
+    width: 100%;
+    display: inline-flex;
+    background: linear-gradient(to bottom, rgb(215, 215, 215), rgb(178, 178, 178));
+    box-shadow: 0px 3px 5px rgb(120,120,120);
+    margin-bottom: 1px;
+}
+
+nav h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 100%;
+}
+
+nav h1 {
+    margin: 0px;
+    padding: 1vh 10px 1vh 10px;
+    box-shadow: 1px 0px 3px rgb(120,120,120);
+    color: black;
+    font-size: 6vh;
+}
+
+nav h2 {
+    color: black;
+    padding: 2vh 10px 2vh 10px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 4vh;
+    border-right: 1px solid rgb(178,178,178);
+    border-left: 1px solid rgb(215,215,215);
+}
+
+.active {
+    border-left: 1px solid rgb(178,178,178);
+    border-right: 1px solid rgb(215,215,215);
+    background: linear-gradient(to top, rgb(215, 215, 215), rgb(178, 178, 178));
+}
+
+main {
+    grid-row: 2;
+    width: 100%;
+}
+
+main iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.tinyIcons {
+	height: 30px;
+	width: auto;
+}
+
+a{
+    text-decoration: none;
+}
