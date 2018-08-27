@@ -29,6 +29,8 @@ body {
 }
 
 #banner button {
+    min-width: 100px;
+    min-height: 20px;
     width: 47vw;
     height: 10vh;
     padding: 0px;
