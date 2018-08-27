@@ -29,12 +29,12 @@ body {
 }
 
 #banner button {
-    width: 100px;
-    height: 20px;
+    width: 47vw;
+    height: 10vh;
     padding: 0px;
     margin: 0px;
     border: 0px;
-    font-size: 80px;
+    font-size: 4vh;
     font-weight: bold;
     letter-spacing: .5ch;
     text-transform: uppercase;
@@ -154,6 +154,7 @@ body {
 }   
 
 #modal-inner button {
+    min-width: 100px;
     width: 5%;
     margin-left: 47.5%;
 }
