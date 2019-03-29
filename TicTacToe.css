@@ -154,6 +154,7 @@ body {
 }   
 
 #modal-inner button {
+    min-width: 100px;
     width: 5%;
     margin-left: 47.5%;
 }

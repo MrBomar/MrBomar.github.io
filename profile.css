@@ -1,0 +1,49 @@
+body {
+	background-color: rgb(39,86,107);
+	margin: 0px;
+	padding: 0px;
+	display: grid;
+	grid-template-columns: 10vw 80vw 10vw;
+}
+
+#leftPad {
+	grid-column: 1;
+}
+
+#rightPad {
+	grid-column: 3;
+}
+
+main {
+	grid-column: 2;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+h1, h2, h3, h4 {
+	margin: 10px;
+}
+
+#icondiv {
+	margin-top: 10px;
+	align-content: center;
+}
+
+#mypic {
+	height: 200px;
+	border-radius: 0% 20% 0% 20%;
+	box-shadow: 5px 5px 2px black;
+}
+
+#contactImage {
+	float: right;
+	text-align: center;
+	position: relative;
+}
+
+.tinyIcons {
+	height: 30px;
+	width: auto;
+}
