@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            display: grid;
+            grid-template-rows: 8vh 92vh;
+        }
+
+        #title {
+            background-color: black;
+            color: white;
+        }
+
+        #links {
+            background: gray;
+            color: white;
+        }
+
+        iframe {
+            height: 100%;
+            width: 100%;
+            border: none;
+        }
+
+    </style>
+    <script>
+        constNavData = [
+            {
+                "title": "Profile",
+                "url": "profile.html"
+            },
+            {
+                "title": "Projects",
+                "url": "projects.html"
+            }
+        ];
+
+        const navClick = (url) => {
+            let myFrame = document.getElementById('myFrame');
+            if ((myFrame.src.substr((myFrame.src.length - url.length), url.length)) == url) {myFrame.src = url}
+        }
+
+        const smallNav = () => {
+            let myButton = `<button class="menuButton" onclick="switchMenu()">≡</button>`;
+            document.getElementById('links').innerHTML += myButton;
+        }
+
+        const largeNav = () => {
+
+        }
+
+        const buildNavButtons = (cssClass) => {
+            
+        }
+        
+        const screenAdjust = () => (window.innerWidth < 550)?smallNav():largeNav();
+
+        window.addEventListener("resize", screenAdjust);
+        window.addEventListener("rotate", screenAdjust);
+    </script>
+</head>
+<body>
+    <nav>
+        <h1 id="title">Leslie C. Bomar</h1>
+        <div id="links"></div>
+    </nav>
+    <main>
+        <iframe id="myFrame"></iframe>
+    </main>
+</body>
+</html>
